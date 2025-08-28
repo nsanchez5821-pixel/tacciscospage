@@ -1,0 +1,69 @@
+ body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #fff300;
+            color: red;
+            padding: 1rem 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+        nav {
+            display: flex;
+            gap: 15px;
+        }
+        nav a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .logo {
+            max-width: 300px;
+                mix-blend-mode: multiply;
+
+        }
+        .container {
+            padding: 2rem;
+            background: white;
+            margin: 1rem auto;
+            max-width: 800px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #d92323;
+            color: white;
+            margin-top: 1rem;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        form input, form textarea, form button {
+            margin: 5px 0;
+            padding: 10px;
+        }
+        form button {
+            background: #d92323;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background: #a91c1c;
+        }
+        nav hover{
+            color: white;
+        }
